@@ -1,0 +1,143 @@
+.home {
+    min-height: calc(100vh - 60px);
+    position: relative;
+    width: 100%;
+    background-image: url("../../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        padding: 100px 50px 20px 50px;
+
+        .image {
+            width: 35%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            
+            .phunghuuloc {
+                width: 50%;
+            }
+        }
+
+        .info {
+            width: 65%;
+            // padding: 20px;
+            color: #000;
+
+            p {
+                font-size: 30px;
+                font-weight: 600;
+                margin: 10px 0px;
+
+                span {
+                    color: #F7D100;
+                    text-shadow: 1px 1px 2px #000;
+                }
+            }
+
+            p:nth-child(3) {
+                text-align: justify;
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            .cvdownload {
+                margin: 30px 0px;
+
+                a {
+                    background: transparent;
+                    border: 1px solid #3D535F;
+                    border-radius: 0 15px;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    color: #3D535F;
+                    transition: .2s all linear;
+
+                    &:hover {
+                        background: #3D535F;
+                        color: #fff;
+                    }
+                }
+                
+            }
+
+            .project {
+                p {
+                    font-size: 16px;
+                    margin: 30px 0px;
+                }
+
+                a {
+                    background: transparent;
+                    border: 1px solid #3D535F;
+                    border-radius: 0 15px;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    color: #3D535F;
+                    transition: .2s all linear;
+
+                    &:hover {
+                        background: #3D535F;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .home {
+        .container {
+            height: 100%;
+            align-items: center;
+            padding: 100px 20px 50px 20px;
+
+            .info {
+                p {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .home {
+        .container {
+            flex-direction: column;
+
+            .image {
+                .phunghuuloc {
+                    width: 100%;
+                }
+            }
+
+            .info {
+                width: 90%;
+
+                p {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .home {
+        .container {
+            .info {
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

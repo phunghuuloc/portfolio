@@ -1,0 +1,108 @@
+.education {
+    min-height: calc(100vh - 60px);
+    position: relative;
+    width: 100%;
+    background-image: url("../../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 50px 20px 50px;
+
+        .info {
+            position: relative;
+            width: 60%;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: left;
+
+            &:before {
+                content: "";
+                width: 2px;
+                height: 100%;
+                background: #3D535F;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            p {
+                position: relative;
+                padding-left: 20px;
+                text-align: justify;
+
+                &:before {
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    background: #3D535F;
+                    position: absolute;
+                    top: 10px;
+                    left: -4px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .university {
+            margin: 30px 0px;
+
+            h3 {
+                text-align: center;
+                margin: 20px 0px;
+            }
+
+            p {
+                text-align: justify;
+                line-height: 25px;
+            }
+        }
+
+        address {
+            margin: 20px 0px;
+            
+            p {
+                text-align: center;
+            }
+        }
+
+        .map {
+            width: 800px;
+            height: 500px;
+
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .education {
+        .container {
+            .map {
+                width: 80%;
+                height: 50vw;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .education {
+        .container {
+            padding: 150px 20px 20px 20px;
+
+            .info {
+                width: 90%;
+            }
+        }
+    }
+}
