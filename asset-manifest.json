@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.564106f8.css",
-    "main.js": "/portfolio/static/js/main.7f27616b.js",
+    "main.js": "/portfolio/static/js/main.30531d5f.js",
     "static/media/phunghuuloc.png": "/portfolio/static/media/phunghuuloc.1c83f150f77ccedf1542.png",
     "static/media/web01.png": "/portfolio/static/media/web01.6f501a845ee59ee75916.png",
     "static/media/web02.png": "/portfolio/static/media/web02.76a7ed90bda90402c231.png",
@@ -12,15 +12,15 @@
     "static/media/2.gif": "/portfolio/static/media/2.bbcbf00c4c1292dfbb91.gif",
     "static/media/5.gif": "/portfolio/static/media/5.a108dd32f55132f7e241.gif",
     "static/media/1.gif": "/portfolio/static/media/1.4e04a084e047f5c22d82.gif",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.b03c093b4031a88d5e94.pdf",
     "static/media/phunghuuloc.jpg": "/portfolio/static/media/phunghuuloc.4f0d146cc5965de5cb55.jpg",
     "static/media/yeah.gif": "/portfolio/static/media/yeah.decef2ca6a3be16b32fd.gif",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.92ef1b9a149037d7b9a1.pdf",
     "index.html": "/portfolio/index.html",
     "main.564106f8.css.map": "/portfolio/static/css/main.564106f8.css.map",
-    "main.7f27616b.js.map": "/portfolio/static/js/main.7f27616b.js.map"
+    "main.30531d5f.js.map": "/portfolio/static/js/main.30531d5f.js.map"
   },
   "entrypoints": [
     "static/css/main.564106f8.css",
-    "static/js/main.7f27616b.js"
+    "static/js/main.30531d5f.js"
   ]
 }
